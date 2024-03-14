@@ -60,13 +60,13 @@ void merge(int pData[], int l, int m, int r)
         i++;
         k++;
     }
-
+	
     while (j < n2) {
         pData[k] = R[j];
         j++;
         k++;
     }
-
+	
     // deallocate memory using dealloc
     DeAlloc(L);
     DeAlloc(R);
